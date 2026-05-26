@@ -1,0 +1,79 @@
+* {
+  margin: 0;    /* 清除所有元素默认外边距 */
+  padding: 0;   /* 清除所有元素默认内边距 */
+  box-sizing: border-box; /* 核心：padding不撑大盒子，必写！ */
+  list-style-position: inside;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;/* 统一字体 */ 
+  line-height: 1.5;       /* 统一文字行高（更舒服） */
+  color: #333;            /* 统一文字颜色 */
+  background-color: #FFFAFA; /* 统一背景色（你案例里的背景） */
+  max-width: 2000px
+  margin: 0 auto;
+}
+.container {
+  margin: 0 auto;
+  width: 1500px;
+  padding: 20px;
+  background-color: #FFFAFA;
+}
+.title{
+  text-align: center;
+}
+.listcontainer {
+  background-color: 	#FFFAFA; /* 背景色 */
+  padding: 40px;             /* 内边距 */
+  border-radius: 8px;        /* 圆角 */
+  max-width: 600px;          /* 宽度 */
+  margin: 20px auto;         /* 居中 */
+  border: 2px solid #D2B48C;
+}
+.homelist {
+  font-size: 20px;
+  
+}
+.link{
+  text-decoration: none;
+}
+.jump-btn {
+  display: inline-block; /* 必须加，才能设置宽高/内边距 */
+  padding: 10px 24px;    /* 按钮大小 */
+  background: #ff6b35;   /* 按钮背景色 */
+  color: white;          /* 文字颜色 */
+  border-radius: 6px;    /* 圆角 */
+  text-decoration: none; /* 去掉链接下划线 */
+  transition: 0.3s;
+}
+.jump-btn:hover {
+  background: #e55a2b; /* 鼠标放上去变色 */
+}
+.intro{
+  background-color: white;
+  max-width: 1500px;
+  margin: 10px auto;
+  padding: 30px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+img{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+.firstimg{
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+.details{
+  background-color: white;
+  max-width: 1500px;
+  margin: 10px auto;
+  padding: 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  line-height: 2;
+}
